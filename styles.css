@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+ }
+ 
+ 
+ .post-box {
+    background-color: white;
+    width:500px;
+    display:flex;
+    justify-content:center;
+ }
+ 
+ 
+ .post {
+    width:500px;
+ }
+ 
+ 
+ .post-header {
+    display:flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ 
+ 
+ .post-img {
+    width:100%;
+    height:auto;
+ }
+ 
+ 
+ img {
+    width:100%;
+    object-fit:cover;
+ }
+ 
+ 
+ .post-header span {
+    margin-left:auto;
+    margin-right: 10px;
+ }
+ 
+ 
+ .post-header p, .post-header h3 {
+    margin: 0;
+    font-size: 14px;
+ }
+ 
+ 
+ .html-icon {
+    margin-left: 10px;
+    margin-right: 5px;
+ }
+ 
+ 
+ .post-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ 
+ 
+ .post-icon span {
+    margin-left: auto;
+ }
+ 
+ 
+ .post-body p {
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ 
+ 
+ h1 {
+    text-align:center;
+    margin-bottom:5px;
+    font-family:arial;
+ }
+ 
+ 
+ .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:12px;
+    text-indent:10px;
+    padding:5px;
+ }
+ 
+ 
+ .post-body {
+    text-indent: 10px;
+ } 
